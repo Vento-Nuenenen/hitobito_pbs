@@ -53,3 +53,7 @@ email:
 
 people:
   abos: false
+
+portal:
+  url: "https://pbsportal.itds-test.ch/api/v1/message"
+  key: "e0d0fc63-07d5-4387-9709-41d3c5742db9"
