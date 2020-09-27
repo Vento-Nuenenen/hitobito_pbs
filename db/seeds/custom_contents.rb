@@ -62,6 +62,10 @@ CustomContent.seed_once(:key,
     placeholders_required: 'participant-name, camp-url',
     placeholders_optional: 'camp-name, camp-state' },
 
+  { key: Event::PortalNotificationService::APPROVE_CAMP_REGISTRATION,
+    placeholders_required: 'participant-name, camp-url',
+    placeholders_optional: 'camp-name, camp-state' },
+
   { key: BlackListMailer::CONTENT_BLACK_LIST_HIT,
     placeholders_required: 'black-list-person, joined-target',
     placeholders_optional: '' },

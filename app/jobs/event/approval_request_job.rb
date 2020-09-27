@@ -22,6 +22,8 @@ class Event::ApprovalRequestJob < BaseJob
   end
 
   def send_approval
+    PortalNotificationService.notify
+
     recipients = approvers
     if recipients.present?
       Event::ParticipationMailer.approval(participation, recipients).deliver_now
