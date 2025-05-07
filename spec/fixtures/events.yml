@@ -94,6 +94,7 @@ top_event:
   groups: bund
   lft: 11
   rgt: 12
+  visible_contact_attributes: ["all"]
 
 top_course:
   groups: be
@@ -105,6 +106,7 @@ top_course:
   external_applications: true
   lft: 1
   rgt: 2
+  visible_contact_attributes: ["all"]
 
 bund_course:
   groups: bund
@@ -113,12 +115,14 @@ bund_course:
   number: 876
   lft: 3
   rgt: 4
+  visible_contact_attributes: ["all"]
 
 schekka_camp:
   groups: schekka
   type: Event::Camp
   lft: 9
   rgt: 10
+  visible_contact_attributes: ["all"]
 
 schekka_supercamp:
   groups: schekka
@@ -127,6 +131,7 @@ schekka_supercamp:
   state: created
   lft: 13
   rgt: 14
+  visible_contact_attributes: ["all"]
 
 tsueri_supercamp:
   groups: chaeib
@@ -135,12 +140,14 @@ tsueri_supercamp:
   state: created
   lft: 15
   rgt: 16
+  visible_contact_attributes: ["all"]
 
 bund_camp:
   groups: bund
   type: Event::Camp
   lft: 7
   rgt: 8
+  visible_contact_attributes: ["all"]
 
 bund_supercamp:
   groups: bund
@@ -149,15 +156,18 @@ bund_supercamp:
   state: created
   lft: 5
   rgt: 6
+  visible_contact_attributes: ["all"]
 
 be_camp:
   groups: be
   type: Event::Camp
   lft: 17
   rgt: 18
+  visible_contact_attributes: ["all"]
 
 bern_camp:
   groups: bern
   type: Event::Camp
   lft: 19
   rgt: 20
+  visible_contact_attributes: ["all"]
